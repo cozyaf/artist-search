@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Search from '../components/home/Search';
 import List from '../components/List';
+import { getArtists } from '../services/MusicBrainzApi';
 
 export default class Home extends Component {
   state = {
@@ -14,10 +15,13 @@ export default class Home extends Component {
     });
   }
 
-  handleClick = ({ target }) => {
-    // grab text state
-    // api call 
-    console.log(target);
+  handleClick = () => {
+    getArtists(this.state.text)
+      .then(res => {
+        this.setState({
+          entries: res.artists,
+        });
+      });
   }
 
   render() {
