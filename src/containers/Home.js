@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import Search from '../components/home/Search';
+import List from '../components/List';
 
 export default class Home extends Component {
   state = {
-    text: ''
+    text: '',
+    entries: []
   }
 
   handleChange = ({ target }) => {
@@ -19,13 +21,16 @@ export default class Home extends Component {
   }
 
   render() {
-    const { text } = this.state;
+    const { text, entries } = this.state;
 
     return (
+      <>
       <Search 
         text={text} 
         handleChange={this.handleChange} 
         handleClick={this.handleClick} />
+      <List entries={entries} />
+      </>
     );
   }
 }
