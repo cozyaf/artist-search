@@ -29,3 +29,11 @@ export const getSongs = (releaseId) => {
       return res.json();
     });
 }; 
+
+export const getLyrics = (artistName, songTitle) => {
+  return fetch(`https://api.lyrics.ovh/v1/${artistName}/${songTitle}`)
+    .then(res => {
+      if(!res.ok) throw 'Unable to fetch stuff bruh :(';
+      return res.json();
+    });
+}; 
