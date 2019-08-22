@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Search from '../components/home/Search';
+import SearchResult from '../components/home/SearchResult';
 import List from '../components/List';
 import { getArtists } from '../services/MusicBrainzApi';
 
@@ -33,7 +34,7 @@ export default class Home extends Component {
         text={text} 
         handleChange={this.handleChange} 
         handleClick={this.handleClick} />
-      <List entries={entries} />
+      <List Comp={SearchResult} entries={entries} />
       </>
     );
   }

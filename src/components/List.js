@@ -1,14 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import SearchResult from './home/SearchResult';
 
-function List({ entries }) {
-  const entryList = entries.map(entry => (
-    <li key={entry.id}>
-      <SearchResult 
-        name={entry.name} 
-        id={entry.id} 
-        disambiguation={entry.disambiguation}/>
+function List({ entries, Comp }) {
+  const entryList = entries.map(object => (
+    <li key={object.id}>
+      <Comp props={object} />
     </li>
   ));
 
@@ -20,7 +16,8 @@ function List({ entries }) {
 }
 
 List.propTypes = {
-  entries: PropTypes.array.isRequired
+  entries: PropTypes.array.isRequired,
+  Comp: PropTypes.func.isRequired
 };
 
 export default List;
