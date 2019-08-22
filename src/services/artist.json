@@ -1,0 +1,63 @@
+{
+  "gender": "Female",
+  "country": "CO",
+  "aliases": [
+  {
+  "primary": null,
+  "sort-name": "Shaki",
+  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+  "begin": null,
+  "name": "Shaki",
+  "end": null,
+  "type": "Search hint",
+  "ended": false,
+  "locale": null
+  },
+  {
+  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+  "primary": null,
+  "sort-name": "Mebarak Ripoll, Shakira Isabel",
+  "begin": null,
+  "end": null,
+  "name": "Shakira Isabel Mebarak Ripoll",
+  "type": "Legal name",
+  "ended": false,
+  "locale": null
+  }
+  ],
+  "ipis": [
+  "00353347661"
+  ],
+  "isnis": [
+  "0000000116252147",
+  "0000000132386436"
+  ],
+  "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+  "disambiguation": "Shakira Isabel Mebarak Ripoll, Colombian pop vocalist",
+  "type": "Person",
+  "begin_area": {
+  "name": "Barranquilla",
+  "disambiguation": "",
+  "sort-name": "Barranquilla",
+  "id": "c75b683f-3238-4fc8-b5ca-1883ab911561"
+  },
+  "id": "bf24ca37-25f4-4e34-9aec-460b94364cfc",
+  "area": {
+  "iso-3166-1-codes": [
+  "CO"
+  ],
+  "id": "02b60d8d-7164-339d-868d-22d147d9f74a",
+  "disambiguation": "",
+  "sort-name": "Colombia",
+  "name": "Colombia"
+  },
+  "life-span": {
+  "ended": false,
+  "begin": "1977-02-02",
+  "end": null
+  },
+  "end_area": null,
+  "name": "Shakira",
+  "sort-name": "Shakira",
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+  }
