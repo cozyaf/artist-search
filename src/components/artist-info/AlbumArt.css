@@ -1,0 +1,9 @@
+.AlbumArt {
+  border-radius: 25px;
+  img {
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    margin: auto
+  }
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './List.css';
 
 function List({ list, keyName, ListItem }) {
   const listElements = list.map(item => {
@@ -14,8 +15,9 @@ function List({ list, keyName, ListItem }) {
   });
 
   return (
-    <section>
-      <ul>IM ALIVE{listElements}</ul>
+    <section className={styles.List}>
+      <h2>Search Results: </h2>
+      <ul>{listElements}</ul>
     </section>
   );
 }
