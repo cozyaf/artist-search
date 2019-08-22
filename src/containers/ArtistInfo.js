@@ -18,14 +18,18 @@ export default class ArtistInfo extends Component {
 
   componentDidMount() {
     const match = this.props.match;
-    getArtist(match.params.id)
+    const artistId = match.params.id;
+    getArtist(artistId)
       .then(res => {
         this.setState({ artist: res });
       })
       .then(() => {
-        getReleases(match.params.id)
+        getReleases(artistId)
           .then(res => {
-            this.setState({ releases: res.releases });
+            const withArtistId = res.releases.map(release => {
+              return { ...release, artistId };
+            });
+            this.setState({ releases: withArtistId });
           });
       });
   }

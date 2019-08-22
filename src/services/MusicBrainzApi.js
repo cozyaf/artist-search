@@ -21,3 +21,11 @@ export const getReleases = (id) => {
       return res.json();
     });
 };
+
+export const getSongs = (releaseId) => {
+  return fetch(`http://musicbrainz.org/ws/2/recording?release=${releaseId}&fmt=json`)
+    .then(res => {
+      if(!res.ok) throw 'Unable to fetch stuff bruh :(';
+      return res.json();
+    });
+}; 

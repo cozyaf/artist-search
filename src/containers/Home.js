@@ -7,7 +7,7 @@ import { getArtists } from '../services/MusicBrainzApi';
 
 export default class Home extends Component {
   static propTypes = {
-    history: PropTypes.array.isRequired,
+    history: PropTypes.object.isRequired,
     location: PropTypes.object.isRequired
   }
   state = {

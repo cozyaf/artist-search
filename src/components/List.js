@@ -16,7 +16,6 @@ function List({ list, keyName, ListItem }) {
 
   return (
     <section className={styles.List}>
-      <h2>Search Results: </h2>
       <ul>{listElements}</ul>
     </section>
   );
