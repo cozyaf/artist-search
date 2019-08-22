@@ -16,7 +16,11 @@ function SearchResult({ searchResult }) {
 }
 
 SearchResult.propTypes = {
-  searchResult: PropTypes.object.isRequired
+  searchResult: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    disambiguation: PropTypes.string.isRequired
+  }).isRequired
 };
 
 export default SearchResult;

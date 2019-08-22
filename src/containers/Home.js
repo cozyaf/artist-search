@@ -1,13 +1,27 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Search from '../components/home/Search';
 import SearchResult from '../components/home/SearchResult';
 import List from '../components/List';
 import { getArtists } from '../services/MusicBrainzApi';
 
 export default class Home extends Component {
+  static propTypes = {
+    history: PropTypes.array.isRequired,
+    location: PropTypes.object.isRequired
+  }
   state = {
     text: '',
-    entries: []
+    entries: []   
+  }
+
+  componentDidMount() {
+    const search = new URLSearchParams(this.props.location.search);
+    if(search.get('text')) {
+      this.setState({ text: search.get('text') }, () => {
+        this.loadArtists();
+      });
+    }
   }
 
   handleChange = ({ target }) => {
@@ -17,6 +31,11 @@ export default class Home extends Component {
   }
 
   handleClick = () => {
+    this.props.history.push(`/?text=${this.state.text}`);
+    this.loadArtists();
+  }
+
+  loadArtists() {
     getArtists(this.state.text)
       .then(res => {
         this.setState({
@@ -24,6 +43,7 @@ export default class Home extends Component {
         });
       });
   }
+
 
   render() {
     const { text, entries } = this.state;
