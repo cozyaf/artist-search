@@ -1,0 +1,962 @@
+{
+  "release-count": 214,
+  "releases": [
+  {
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "release-events": [
+  {
+  "area": {
+  "name": "Europe",
+  "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+  "disambiguation": "",
+  "sort-name": "Europe",
+  "iso-3166-1-codes": [
+  "XE"
+  ]
+  },
+  "date": "2000-02-28"
+  }
+  ],
+  "quality": "normal",
+  "country": "XE",
+  "cover-art-archive": {
+  "darkened": false,
+  "back": false,
+  "artwork": true,
+  "front": true,
+  "count": 1
+  },
+  "text-representation": {},
+  "barcode": "5099749759626",
+  "status": "Official",
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "asin": "B00004RIOX",
+  "date": "2000-02-28",
+  "title": "MTV Unplugged",
+  "packaging": "Jewel Case",
+  "disambiguation": "",
+  "id": "01a242ca-e319-3cf4-b3d4-97116e465f61"
+  },
+  {
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "quality": "normal",
+  "release-events": [
+  {
+  "date": "2000-02-29",
+  "area": {
+  "iso-3166-1-codes": [
+  "US"
+  ],
+  "disambiguation": "",
+  "sort-name": "United States",
+  "name": "United States",
+  "id": "489ce91b-6658-3307-9877-795b68554c98"
+  }
+  }
+  ],
+  "country": "US",
+  "status": "Official",
+  "barcode": "827969470725",
+  "text-representation": {
+  "language": "spa",
+  "script": "Latn"
+  },
+  "cover-art-archive": {
+  "count": 0,
+  "front": false,
+  "back": false,
+  "artwork": false,
+  "darkened": false
+  },
+  "packaging-id": null,
+  "date": "2000-02-29",
+  "asin": "B00004RDKX",
+  "disambiguation": "",
+  "packaging": null,
+  "title": "MTV Unplugged",
+  "id": "03c94d22-f3c6-426b-90d6-f7e22db5178c"
+  },
+  {
+  "release-events": [
+  {
+  "area": {
+  "iso-3166-1-codes": [
+  "ES"
+  ],
+  "disambiguation": "",
+  "sort-name": "Spain",
+  "name": "Spain",
+  "id": "471c46a7-afc5-31c4-923c-d0444f5053a4"
+  },
+  "date": "1993"
+  }
+  ],
+  "quality": "normal",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "barcode": null,
+  "text-representation": {
+  "language": "spa",
+  "script": "Latn"
+  },
+  "cover-art-archive": {
+  "count": 1,
+  "front": true,
+  "artwork": true,
+  "back": false,
+  "darkened": false
+  },
+  "status": "Official",
+  "country": "ES",
+  "asin": null,
+  "date": "1993",
+  "packaging-id": null,
+  "id": "046fac35-79bc-41ea-9cd4-f4467356ce78",
+  "packaging": null,
+  "title": "Peligro",
+  "disambiguation": ""
+  },
+  {
+  "text-representation": {
+  "language": "spa",
+  "script": "Latn"
+  },
+  "barcode": "5099748527523",
+  "cover-art-archive": {
+  "back": true,
+  "artwork": true,
+  "count": 2,
+  "front": true,
+  "darkened": false
+  },
+  "status": "Official",
+  "country": "XE",
+  "release-events": [
+  {
+  "date": "1997",
+  "area": {
+  "iso-3166-1-codes": [
+  "XE"
+  ],
+  "disambiguation": "",
+  "sort-name": "Europe",
+  "name": "Europe",
+  "id": "89a675c2-3e37-3518-b83c-418bad59a85a"
+  }
+  }
+  ],
+  "quality": "normal",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "id": "08e38e1d-1a5d-4df5-aee8-7f3ece5b6e50",
+  "title": "Pies descalzos",
+  "packaging": "Jewel Case",
+  "disambiguation": "",
+  "asin": null,
+  "date": "1997",
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a"
+  },
+  {
+  "asin": "B000024JMI",
+  "date": "1996",
+  "packaging-id": null,
+  "id": "23cd5b15-b5bd-4b8d-bb3c-d0bf830eae60",
+  "packaging": null,
+  "disambiguation": "Brazil Edition",
+  "title": "Pies descalzos",
+  "release-events": [
+  {
+  "date": "1996",
+  "area": {
+  "id": "f45b47f8-5796-386e-b172-6c31b009a5d8",
+  "name": "Brazil",
+  "sort-name": "Brazil",
+  "disambiguation": "",
+  "iso-3166-1-codes": [
+  "BR"
+  ]
+  }
+  }
+  ],
+  "quality": "normal",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "barcode": null,
+  "text-representation": {
+  "script": "Latn",
+  "language": "spa"
+  },
+  "cover-art-archive": {
+  "darkened": false,
+  "front": true,
+  "count": 1,
+  "back": false,
+  "artwork": true
+  },
+  "status": "Official",
+  "country": "BR"
+  },
+  {
+  "asin": "B0009K8L5W",
+  "date": "1996",
+  "packaging-id": null,
+  "id": "2bcc37d1-3db2-3f66-8792-a2870c2cc029",
+  "packaging": null,
+  "title": "Pies descalzos",
+  "disambiguation": "",
+  "release-events": [
+  {
+  "area": {
+  "iso-3166-1-codes": [
+  "US"
+  ],
+  "name": "United States",
+  "id": "489ce91b-6658-3307-9877-795b68554c98",
+  "disambiguation": "",
+  "sort-name": "United States"
+  },
+  "date": "1996"
+  }
+  ],
+  "quality": "normal",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "text-representation": {
+  "script": "Latn",
+  "language": "spa"
+  },
+  "cover-art-archive": {
+  "front": true,
+  "count": 1,
+  "artwork": true,
+  "back": false,
+  "darkened": false
+  },
+  "barcode": "827969470923",
+  "status": "Official",
+  "country": "US"
+  },
+  {
+  "asin": null,
+  "date": "1996",
+  "packaging-id": null,
+  "id": "45ae2530-a171-4511-ae07-51edacf6c483",
+  "packaging": null,
+  "title": "Pies Descalzos, Sueños Blancos",
+  "disambiguation": "",
+  "release-events": [
+  {
+  "date": "1996",
+  "area": {
+  "iso-3166-1-codes": [
+  "ES"
+  ],
+  "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+  "name": "Spain",
+  "sort-name": "Spain",
+  "disambiguation": ""
+  }
+  }
+  ],
+  "quality": "normal",
+  "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+  "cover-art-archive": {
+  "back": false,
+  "artwork": false,
+  "front": false,
+  "count": 0,
+  "darkened": false
+  },
+  "text-representation": {
+  "script": "Latn",
+  "language": "spa"
+  },
+  "barcode": null,
+  "status": "Promotion",
+  "country": "ES"
+  },
+  {
+  "release-events": [
+  {
+  "date": "2001-11-13",
+  "area": {
+  "disambiguation": "",
+  "sort-name": "United States",
+  "name": "United States",
+  "id": "489ce91b-6658-3307-9877-795b68554c98",
+  "iso-3166-1-codes": [
+  "US"
+  ]
+  }
+  }
+  ],
+  "quality": "normal",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "text-representation": {
+  "language": "mul",
+  "script": "Latn"
+  },
+  "cover-art-archive": {
+  "back": true,
+  "artwork": true,
+  "count": 23,
+  "front": true,
+  "darkened": false
+  },
+  "barcode": "074646390023",
+  "status": "Official",
+  "country": "US",
+  "asin": "B00005R2M3",
+  "date": "2001-11-13",
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "id": "46f25a39-1630-4bed-8b5c-5aef1e464757",
+  "packaging": "Jewel Case",
+  "disambiguation": "",
+  "title": "Laundry Service"
+  },
+  {
+  "packaging": null,
+  "title": "The Remixes",
+  "disambiguation": "",
+  "id": "4ab9153d-e48f-444f-acc1-1721d7da48b6",
+  "packaging-id": null,
+  "date": "1997-10-21",
+  "asin": "B000002EPP",
+  "country": "CO",
+  "status": "Official",
+  "cover-art-archive": {
+  "darkened": false,
+  "count": 0,
+  "front": false,
+  "back": false,
+  "artwork": false
+  },
+  "text-representation": {
+  "language": "spa",
+  "script": "Latn"
+  },
+  "barcode": "037628251224",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "quality": "normal",
+  "release-events": [
+  {
+  "date": "1997-10-21",
+  "area": {
+  "iso-3166-1-codes": [
+  "CO"
+  ],
+  "sort-name": "Colombia",
+  "disambiguation": "",
+  "id": "02b60d8d-7164-339d-868d-22d147d9f74a",
+  "name": "Colombia"
+  }
+  }
+  ]
+  },
+  {
+  "text-representation": {
+  "script": "Latn",
+  "language": "spa"
+  },
+  "barcode": "5099749759695",
+  "cover-art-archive": {
+  "darkened": false,
+  "back": true,
+  "artwork": true,
+  "front": true,
+  "count": 3
+  },
+  "status": "Official",
+  "country": "ES",
+  "release-events": [
+  {
+  "area": {
+  "sort-name": "Spain",
+  "disambiguation": "",
+  "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+  "name": "Spain",
+  "iso-3166-1-codes": [
+  "ES"
+  ]
+  },
+  "date": "2000-02"
+  }
+  ],
+  "quality": "normal",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "id": "55ca9e9c-2c9d-3104-ae0d-398f16565daa",
+  "packaging": null,
+  "disambiguation": "",
+  "title": "MTV Unplugged",
+  "asin": null,
+  "date": "2000-02",
+  "packaging-id": null
+  },
+  {
+  "barcode": "5099749872028",
+  "text-representation": {
+  "script": "Latn",
+  "language": "mul"
+  },
+  "cover-art-archive": {
+  "count": 2,
+  "front": true,
+  "back": true,
+  "artwork": true,
+  "darkened": false
+  },
+  "status": "Official",
+  "country": "XE",
+  "release-events": [
+  {
+  "date": "2001-11-30",
+  "area": {
+  "iso-3166-1-codes": [
+  "XE"
+  ],
+  "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+  "name": "Europe",
+  "sort-name": "Europe",
+  "disambiguation": ""
+  }
+  }
+  ],
+  "quality": "normal",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "id": "6217e136-71e2-3c8e-b4f5-57d264fa0773",
+  "disambiguation": "",
+  "packaging": "Jewel Case",
+  "title": "Laundry Service",
+  "asin": "B00005UDVP",
+  "date": "2001-11-30",
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a"
+  },
+  {
+  "id": "6f58dbef-35c5-4c8d-bef5-abbcb39efccf",
+  "packaging": null,
+  "title": "¿Dónde están los ladrones?",
+  "disambiguation": "",
+  "date": "1998-09-29",
+  "asin": "B00000DCVO",
+  "packaging-id": null,
+  "status": "Official",
+  "text-representation": {
+  "language": "spa",
+  "script": "Latn"
+  },
+  "barcode": "037628274629",
+  "cover-art-archive": {
+  "darkened": false,
+  "back": false,
+  "artwork": false,
+  "count": 0,
+  "front": false
+  },
+  "country": "US",
+  "quality": "normal",
+  "release-events": [
+  {
+  "date": "1998-09-29",
+  "area": {
+  "iso-3166-1-codes": [
+  "US"
+  ],
+  "disambiguation": "",
+  "sort-name": "United States",
+  "name": "United States",
+  "id": "489ce91b-6658-3307-9877-795b68554c98"
+  }
+  }
+  ],
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+  },
+  {
+  "release-events": [
+  {
+  "date": "2000-02-28",
+  "area": {
+  "sort-name": "Colombia",
+  "disambiguation": "",
+  "id": "02b60d8d-7164-339d-868d-22d147d9f74a",
+  "name": "Colombia",
+  "iso-3166-1-codes": [
+  "CO"
+  ]
+  }
+  }
+  ],
+  "quality": "normal",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "text-representation": {
+  "language": "spa",
+  "script": "Latn"
+  },
+  "cover-art-archive": {
+  "darkened": false,
+  "count": 8,
+  "front": true,
+  "back": true,
+  "artwork": true
+  },
+  "barcode": "5099749759626",
+  "status": "Official",
+  "country": "CO",
+  "asin": null,
+  "date": "2000-02-28",
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "id": "79d9e91b-8b59-4a46-9eff-29555e332377",
+  "title": "MTV Unplugged",
+  "packaging": "Jewel Case",
+  "disambiguation": ""
+  },
+  {
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "release-events": [
+  {
+  "area": null,
+  "date": "1993"
+  }
+  ],
+  "quality": "normal",
+  "country": null,
+  "text-representation": {
+  "script": "Latn",
+  "language": "spa"
+  },
+  "cover-art-archive": {
+  "darkened": false,
+  "artwork": true,
+  "back": true,
+  "front": true,
+  "count": 5
+  },
+  "barcode": null,
+  "status": "Official",
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "asin": null,
+  "date": "1993",
+  "title": "Peligro",
+  "packaging": "Jewel Case",
+  "disambiguation": "",
+  "id": "7acff615-c477-4e9b-bed8-7b49edcf9a7e"
+  },
+  {
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "quality": "normal",
+  "release-events": [
+  {
+  "area": {
+  "disambiguation": "",
+  "sort-name": "Canada",
+  "name": "Canada",
+  "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+  "iso-3166-1-codes": [
+  "CA"
+  ]
+  },
+  "date": "1999-05-11"
+  }
+  ],
+  "country": "CA",
+  "status": "Official",
+  "barcode": "779513044428",
+  "text-representation": {
+  "language": "spa",
+  "script": "Latn"
+  },
+  "cover-art-archive": {
+  "darkened": false,
+  "count": 0,
+  "front": false,
+  "artwork": false,
+  "back": false
+  },
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "date": "1999-05-11",
+  "asin": "B000065LVL",
+  "packaging": "Jewel Case",
+  "disambiguation": "",
+  "title": "Pies descalzos",
+  "id": "a06771fe-d0b1-4682-b57c-2a1a7a883cbc"
+  },
+  {
+  "title": "MTV Unplugged",
+  "packaging": "Jewel Case",
+  "disambiguation": "",
+  "id": "ade68e4a-9fc7-4955-91ea-52ce1f7b8c23",
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "date": "2000",
+  "asin": null,
+  "country": "AR",
+  "status": "Official",
+  "text-representation": {
+  "script": "Latn",
+  "language": "spa"
+  },
+  "cover-art-archive": {
+  "artwork": true,
+  "back": true,
+  "count": 2,
+  "front": true,
+  "darkened": false
+  },
+  "barcode": "5099749759626",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "quality": "normal",
+  "release-events": [
+  {
+  "date": "2000",
+  "area": {
+  "iso-3166-1-codes": [
+  "AR"
+  ],
+  "sort-name": "Argentina",
+  "disambiguation": "",
+  "id": "0df04709-c7d8-3b55-a6ea-f3e5069a947b",
+  "name": "Argentina"
+  }
+  }
+  ]
+  },
+  {
+  "id": "bf1a8c20-f448-4328-a8c6-125661c45aab",
+  "packaging": null,
+  "disambiguation": "",
+  "title": "Ojos así",
+  "asin": null,
+  "date": "1999-07-23",
+  "packaging-id": null,
+  "cover-art-archive": {
+  "count": 1,
+  "front": true,
+  "back": false,
+  "artwork": true,
+  "darkened": false
+  },
+  "text-representation": {
+  "script": "Latn",
+  "language": "spa"
+  },
+  "barcode": "5099766776927",
+  "status": "Official",
+  "country": null,
+  "release-events": [
+  {
+  "area": null,
+  "date": "1999-07-23"
+  }
+  ],
+  "quality": "normal",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+  },
+  {
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "release-events": [
+  {
+  "date": "1999-05-11",
+  "area": {
+  "name": "Canada",
+  "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+  "disambiguation": "",
+  "sort-name": "Canada",
+  "iso-3166-1-codes": [
+  "CA"
+  ]
+  }
+  }
+  ],
+  "quality": "normal",
+  "country": "CA",
+  "text-representation": {
+  "script": "Latn",
+  "language": "spa"
+  },
+  "cover-art-archive": {
+  "darkened": false,
+  "front": true,
+  "count": 2,
+  "back": true,
+  "artwork": true
+  },
+  "barcode": "074649122928",
+  "status": "Official",
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "asin": "B00000DCVO",
+  "date": "1999-05-11",
+  "disambiguation": "",
+  "packaging": "Jewel Case",
+  "title": "¿Dónde están los ladrones?",
+  "id": "d3ac56dd-6c31-460e-ad35-a46d4be89c91"
+  },
+  {
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "quality": "normal",
+  "release-events": [
+  {
+  "area": {
+  "sort-name": "Spain",
+  "disambiguation": "",
+  "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+  "name": "Spain",
+  "iso-3166-1-codes": [
+  "ES"
+  ]
+  },
+  "date": "1997"
+  }
+  ],
+  "country": "ES",
+  "status": "Official",
+  "cover-art-archive": {
+  "count": 6,
+  "front": true,
+  "back": true,
+  "artwork": true,
+  "darkened": false
+  },
+  "text-representation": {
+  "language": "spa",
+  "script": "Latn"
+  },
+  "barcode": "5099748926425",
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "date": "1997",
+  "asin": "B000067F5A",
+  "packaging": "Jewel Case",
+  "disambiguation": "",
+  "title": "The Remixes",
+  "id": "d92a5dc3-ee20-4a99-8ca4-efcc5f6c7874"
+  },
+  {
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "release-events": [
+  {
+  "date": "1991",
+  "area": {
+  "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+  "name": "Spain",
+  "sort-name": "Spain",
+  "disambiguation": "",
+  "iso-3166-1-codes": [
+  "ES"
+  ]
+  }
+  }
+  ],
+  "quality": "normal",
+  "country": "ES",
+  "text-representation": {
+  "script": "Latn",
+  "language": "spa"
+  },
+  "cover-art-archive": {
+  "back": false,
+  "artwork": true,
+  "count": 1,
+  "front": true,
+  "darkened": false
+  },
+  "barcode": null,
+  "status": "Official",
+  "packaging-id": null,
+  "asin": null,
+  "date": "1991",
+  "packaging": null,
+  "title": "Magia",
+  "disambiguation": "",
+  "id": "dddaea72-f52f-4c89-903b-ecd3a8e54d85"
+  },
+  {
+  "packaging": null,
+  "title": "Pies descalzos",
+  "disambiguation": "",
+  "id": "e516ea9f-9867-48a0-8e21-7b43bc932bb0",
+  "packaging-id": null,
+  "asin": null,
+  "date": "1995",
+  "country": "CO",
+  "barcode": "5099747332029",
+  "text-representation": {
+  "language": "spa",
+  "script": "Latn"
+  },
+  "cover-art-archive": {
+  "count": 1,
+  "front": true,
+  "artwork": true,
+  "back": false,
+  "darkened": false
+  },
+  "status": "Official",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "release-events": [
+  {
+  "date": "1995",
+  "area": {
+  "id": "02b60d8d-7164-339d-868d-22d147d9f74a",
+  "name": "Colombia",
+  "sort-name": "Colombia",
+  "disambiguation": "",
+  "iso-3166-1-codes": [
+  "CO"
+  ]
+  }
+  }
+  ],
+  "quality": "normal"
+  },
+  {
+  "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+  "quality": "normal",
+  "release-events": [
+  {
+  "date": "1996",
+  "area": {
+  "iso-3166-1-codes": [
+  "MX"
+  ],
+  "disambiguation": "",
+  "sort-name": "Mexico",
+  "name": "Mexico",
+  "id": "3e08b2cd-69f3-317c-b1e4-e71be581839e"
+  }
+  }
+  ],
+  "country": "MX",
+  "status": "Promotion",
+  "cover-art-archive": {
+  "darkened": false,
+  "count": 0,
+  "front": false,
+  "artwork": false,
+  "back": false
+  },
+  "text-representation": {
+  "language": "spa",
+  "script": "Latn"
+  },
+  "barcode": null,
+  "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+  "date": "1996",
+  "asin": null,
+  "packaging": "Cardboard/Paper Sleeve",
+  "disambiguation": "",
+  "title": "Quiero",
+  "id": "e55b3146-bc27-4ede-8044-98a748e595a7"
+  },
+  {
+  "asin": null,
+  "date": "1996-02-13",
+  "packaging-id": null,
+  "id": "e945b4c0-0927-43cf-aa25-4750831795d2",
+  "packaging": null,
+  "title": "Pies descalzos",
+  "disambiguation": "",
+  "release-events": [
+  {
+  "date": "1996-02-13",
+  "area": {
+  "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+  "name": "Spain",
+  "sort-name": "Spain",
+  "disambiguation": "",
+  "iso-3166-1-codes": [
+  "ES"
+  ]
+  }
+  }
+  ],
+  "quality": "normal",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "barcode": "5099748527523",
+  "text-representation": {
+  "script": "Latn",
+  "language": "spa"
+  },
+  "cover-art-archive": {
+  "darkened": false,
+  "count": 1,
+  "front": true,
+  "back": false,
+  "artwork": true
+  },
+  "status": "Official",
+  "country": "ES"
+  },
+  {
+  "release-events": [
+  {
+  "area": {
+  "disambiguation": "",
+  "sort-name": "Colombia",
+  "name": "Colombia",
+  "id": "02b60d8d-7164-339d-868d-22d147d9f74a",
+  "iso-3166-1-codes": [
+  "CO"
+  ]
+  },
+  "date": "1993"
+  }
+  ],
+  "quality": "normal",
+  "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+  "barcode": null,
+  "text-representation": {
+  "script": "Latn",
+  "language": null
+  },
+  "cover-art-archive": {
+  "darkened": false,
+  "front": false,
+  "count": 0,
+  "back": false,
+  "artwork": false
+  },
+  "status": "Promotion",
+  "country": "CO",
+  "asin": null,
+  "date": "1993",
+  "packaging-id": null,
+  "id": "ed2c77af-269f-4e97-a2f8-35fa8c92a8eb",
+  "title": "Eres",
+  "packaging": null,
+  "disambiguation": ""
+  },
+  {
+  "disambiguation": "",
+  "packaging": "Jewel Case",
+  "title": "¿Dónde están los ladrones?",
+  "id": "f41107d7-eb40-443e-9835-b635d8b08710",
+  "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+  "asin": "B00000DCVO",
+  "date": "1999",
+  "country": "GB",
+  "text-representation": {
+  "script": "Latn",
+  "language": "spa"
+  },
+  "cover-art-archive": {
+  "darkened": false,
+  "count": 2,
+  "front": true,
+  "artwork": true,
+  "back": true
+  },
+  "barcode": "5099748571960",
+  "status": "Official",
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "release-events": [
+  {
+  "area": {
+  "disambiguation": "",
+  "sort-name": "United Kingdom",
+  "name": "United Kingdom",
+  "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+  "iso-3166-1-codes": [
+  "GB"
+  ]
+  },
+  "date": "1999"
+  }
+  ],
+  "quality": "normal"
+  }
+  ],
+  "release-offset": 0
+  }

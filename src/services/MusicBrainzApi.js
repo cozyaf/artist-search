@@ -21,13 +21,3 @@ export const getReleases = (id) => {
       return res.json();
     });
 };
-
-export const getArtwork = (releaseId) => {
-  return fetch(`http://coverartarchive.org/release/${releaseId}/front`)
-    .then(res => {
-      if(!res.ok) throw 'Unable to fetch stuff bruh :(';
-      return res.json();
-    });
-};
-
-

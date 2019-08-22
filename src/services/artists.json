@@ -1,0 +1,310 @@
+{
+  "created": "2019-08-21T21:38:07.326Z",
+  "count": 10,
+  "offset": 0,
+  "artists": [
+  {
+  "id": "bf24ca37-25f4-4e34-9aec-460b94364cfc",
+  "type": "Person",
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "score": 100,
+  "name": "Shakira",
+  "sort-name": "Shakira",
+  "gender": "female",
+  "country": "CO",
+  "area": {
+  "id": "02b60d8d-7164-339d-868d-22d147d9f74a",
+  "type": "Country",
+  "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+  "name": "Colombia",
+  "sort-name": "Colombia",
+  "life-span": {
+  "ended": null
+  }
+  },
+  "begin-area": {
+  "id": "c75b683f-3238-4fc8-b5ca-1883ab911561",
+  "type": "City",
+  "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+  "name": "Barranquilla",
+  "sort-name": "Barranquilla",
+  "life-span": {
+  "ended": null
+  }
+  },
+  "disambiguation": "Shakira Isabel Mebarak Ripoll, Colombian pop vocalist",
+  "ipis": [
+  "00353347661"
+  ],
+  "life-span": {
+  "begin": "1977-02-02",
+  "ended": null
+  },
+  "aliases": [
+  {
+  "sort-name": "Shaki",
+  "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+  "name": "Shaki",
+  "locale": null,
+  "type": "Search hint",
+  "primary": null,
+  "begin-date": null,
+  "end-date": null
+  },
+  {
+  "sort-name": "Mebarak Ripoll, Shakira Isabel",
+  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+  "name": "Shakira Isabel Mebarak Ripoll",
+  "locale": null,
+  "type": "Legal name",
+  "primary": null,
+  "begin-date": null,
+  "end-date": null
+  }
+  ],
+  "tags": [
+  {
+  "count": 0,
+  "name": "alternative"
+  },
+  {
+  "count": 2,
+  "name": "pop rock"
+  },
+  {
+  "count": 0,
+  "name": "atlantico"
+  },
+  {
+  "count": 3,
+  "name": "latin pop"
+  },
+  {
+  "count": 2,
+  "name": "latin"
+  },
+  {
+  "count": 0,
+  "name": "merengue"
+  },
+  {
+  "count": 0,
+  "name": "dance-pop"
+  },
+  {
+  "count": 0,
+  "name": "rock"
+  },
+  {
+  "count": 0,
+  "name": "barranquilla"
+  },
+  {
+  "count": 4,
+  "name": "pop"
+  },
+  {
+  "count": 0,
+  "name": "classic pop and rock"
+  },
+  {
+  "count": 0,
+  "name": "colombian"
+  },
+  {
+  "count": 0,
+  "name": "electropop"
+  }
+  ],
+  "isni-list": [
+  {
+  "isni": "0000000132386436"
+  }
+  ]
+  },
+  {
+  "id": "726cb350-d775-4e07-b006-898555f24b0d",
+  "type": "Group",
+  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+  "score": 88,
+  "name": "Shakira",
+  "sort-name": "Shakira",
+  "country": "DE",
+  "area": {
+  "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+  "type": "Country",
+  "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+  "name": "Germany",
+  "sort-name": "Germany",
+  "life-span": {
+  "ended": null
+  }
+  },
+  "disambiguation": "German trance duo",
+  "life-span": {
+  "ended": null
+  }
+  },
+  {
+  "id": "b8f3c92f-357f-4597-a6c1-820aa7d6cb12",
+  "type": "Person",
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "score": 74,
+  "name": "King Shakira",
+  "sort-name": "Shakira, King",
+  "life-span": {
+  "ended": null
+  }
+  },
+  {
+  "id": "0cd96b0c-d478-450b-b4ea-f1699a1fe5dc",
+  "score": 74,
+  "name": "Shakira Stitt",
+  "sort-name": "Shakira Stitt",
+  "life-span": {
+  "ended": null
+  }
+  },
+  {
+  "id": "8b068dee-6e01-4351-ac1a-7b002d5cca10",
+  "type": "Person",
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "score": 74,
+  "name": "Shakira Jones",
+  "sort-name": "Jones, Shakira",
+  "gender": "female",
+  "country": "US",
+  "area": {
+  "id": "489ce91b-6658-3307-9877-795b68554c98",
+  "type": "Country",
+  "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+  "name": "United States",
+  "sort-name": "United States",
+  "life-span": {
+  "ended": null
+  }
+  },
+  "life-span": {
+  "ended": null
+  }
+  },
+  {
+  "id": "3d32d85f-f6bd-4ef3-9793-c2160047ba1a",
+  "type": "Person",
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "score": 74,
+  "name": "Shakira Atily",
+  "sort-name": "Atily, Shakira",
+  "gender": "female",
+  "life-span": {
+  "ended": null
+  }
+  },
+  {
+  "id": "f8e3430a-961f-43ca-8357-053a2db74063",
+  "type": "Group",
+  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+  "score": 74,
+  "name": "Team Shakira",
+  "sort-name": "Team Shakira",
+  "country": "US",
+  "area": {
+  "id": "489ce91b-6658-3307-9877-795b68554c98",
+  "type": "Country",
+  "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+  "name": "United States",
+  "sort-name": "United States",
+  "life-span": {
+  "ended": null
+  }
+  },
+  "disambiguation": "Shakira's team on the Voice",
+  "life-span": {
+  "begin": "2013",
+  "ended": null
+  }
+  },
+  {
+  "id": "99137252-fb33-46a8-9e8f-1d91c9d25234",
+  "type": "Group",
+  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+  "score": 66,
+  "name": "House of Shakira",
+  "sort-name": "House of Shakira",
+  "life-span": {
+  "begin": "1991",
+  "ended": null
+  }
+  },
+  {
+  "id": "d01c06b5-ee07-4026-8323-39dc2ea0902a",
+  "type": "Person",
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "score": 62,
+  "name": "Montana Thompson",
+  "sort-name": "Thompson, Montana",
+  "gender": "female",
+  "country": "GB",
+  "area": {
+  "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+  "type": "Country",
+  "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+  "name": "United Kingdom",
+  "sort-name": "United Kingdom",
+  "life-span": {
+  "ended": null
+  }
+  },
+  "begin-area": {
+  "id": "e3b25e1c-0adf-4773-820e-533b4f245d01",
+  "type": "Subdivision",
+  "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+  "name": "Islington",
+  "sort-name": "Islington",
+  "life-span": {
+  "ended": null
+  }
+  },
+  "life-span": {
+  "begin": "1988-11-05",
+  "ended": null
+  },
+  "aliases": [
+  {
+  "sort-name": "Thompson, Montanna Shakira",
+  "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+  "name": "Montanna Shakira Thompson",
+  "locale": null,
+  "type": "Legal name",
+  "primary": null,
+  "begin-date": null,
+  "end-date": null
+  }
+  ]
+  },
+  {
+  "id": "ab7c3708-9761-4f7e-9636-68ed38f609ca",
+  "type": "Person",
+  "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+  "score": 35,
+  "name": "Andy Williams",
+  "sort-name": "Williams, Andy",
+  "gender": "male",
+  "country": "GB",
+  "area": {
+  "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+  "type": "Country",
+  "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+  "name": "United Kingdom",
+  "sort-name": "United Kingdom",
+  "life-span": {
+  "ended": null
+  }
+  },
+  "disambiguation": "UK techno producer aka King Shakira",
+  "life-span": {
+  "ended": null
+  }
+  }
+  ]
+  }

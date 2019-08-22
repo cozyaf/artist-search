@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { getArtist, getReleases, getArtwork } from '../services/MusicBrainzApi';
+import { getArtist, getReleases } from '../services/MusicBrainzApi';
 import List from '../components/List';
 import PropTypes from 'prop-types';
 import AlbumArt from '../components/artist-info/AlbumArt';
@@ -25,10 +25,6 @@ export default class ArtistInfo extends Component {
       .then(() => {
         getReleases(match.params.id)
           .then(res => {
-            // res.releases.map(release => {
-            //   const imageUrl = getArtwork(release.id);
-            // })
-            // .then()
             this.setState({ releases: res.releases });
           });
       });
@@ -43,8 +39,7 @@ export default class ArtistInfo extends Component {
       <p>{artist.disambiguation}</p>
       <p>Born:{artist['life-span'].begin}</p>
       <p>Died:{artist['life-span'].end}</p>
-      {console.log(artist['life-span'])}
-      <List entries={releases} Comp={AlbumArt}/>
+      <List list={releases} ListItem={AlbumArt} keyName="release"/>
       </>
     );
   }

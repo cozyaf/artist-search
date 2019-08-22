@@ -1,23 +1,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function List({ entries, Comp }) {
-  const entryList = entries.map(object => (
-    <li key={object.id}>
-      <Comp props={object} />
-    </li>
-  ));
+function List({ list, keyName, ListItem }) {
+  const listElements = list.map(item => {
+    const props = {
+      [keyName]: item
+    };
+    return (
+      <li key={item.id}>
+        <ListItem {...props} />
+      </li>
+    );
+  });
 
   return (
     <section>
-      <ul>IM ALIVE{entryList}</ul>
+      <ul>IM ALIVE{listElements}</ul>
     </section>
   );
 }
 
 List.propTypes = {
-  entries: PropTypes.array.isRequired,
-  Comp: PropTypes.func.isRequired
+  list: PropTypes.array.isRequired,
+  ListItem: PropTypes.func.isRequired,
+  keyName: PropTypes.string.isRequired
 };
 
 export default List;

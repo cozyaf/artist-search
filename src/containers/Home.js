@@ -34,7 +34,10 @@ export default class Home extends Component {
         text={text} 
         handleChange={this.handleChange} 
         handleClick={this.handleClick} />
-      <List Comp={SearchResult} entries={entries} />
+      <List 
+        ListItem={SearchResult} 
+        list={entries} 
+        keyName="searchResult" />
       </>
     );
   }
