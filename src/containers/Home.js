@@ -27,6 +27,12 @@ export default class Home extends Component {
     }
   }
 
+  componentDidUpdate(prevProps, prevState) {
+    if(prevState.page !== this.state.page) {
+      this.loadArtists();
+    }
+  }
+
   handleChange = ({ target }) => {
     this.setState({
       [target.name]: target.value
@@ -35,7 +41,25 @@ export default class Home extends Component {
 
   handleClick = () => {
     this.props.history.push(`/?text=${this.state.text}`);
-    this.loadArtists();
+    this.setState({ page: 1 }, () => {
+      this.loadArtists();
+    });
+  }
+
+  handleClickPrev = () => {
+    this.setState(state => {
+      return {
+        page: state.page - 1
+      };
+    });
+  }
+
+  handleClickNext = () => {
+    this.setState(state => {
+      return {
+        page: state.page + 1
+      };
+    });
   }
 
   loadArtists() {
@@ -60,8 +84,8 @@ export default class Home extends Component {
           handleChange={this.handleChange} 
           handleClick={this.handleClick} />
         <div>
-          <button className={styles.navButtons}>⇠</button>
-          <button className={styles.navButtons}>⇢</button>
+          <button className={styles.navButtons} onClick={this.handleClickPrev}>⇠</button>
+          <button className={styles.navButtons} onClick={this.handleClickNext}>⇢</button>
         </div>
         <List 
           ListItem={SearchResult} 

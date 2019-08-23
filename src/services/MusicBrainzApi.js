@@ -21,12 +21,18 @@ export const getArtist = (id) => {
     });
 };
 
-export const getReleases = (id) => {
-  return fetch(`http://musicbrainz.org/ws/2/release?artist=${id}&fmt=json`)
+export const getReleases = (id, page) => {
+  const NUMBER_PER_PAGE = 10;
+  const offset = (page - 1) * NUMBER_PER_PAGE;
+  return fetch(`http://musicbrainz.org/ws/2/release?artist=${id}&fmt=json&limit=25&offset=${offset}`)
     .then(res => {
       if(!res.ok) throw 'Unable to fetch stuff bruh :(';
       return res.json();
-    });
+    })
+    .then(res => ({
+      ...res,
+      totalPages: Math.ceil(res['release-count'] / NUMBER_PER_PAGE)
+    }));
 };
 
 export const getSongs = (releaseId) => {
