@@ -4,6 +4,7 @@ import List from '../components/List';
 import { getArtist, getSongs, getRelease } from '../services/MusicBrainzApi';
 import Song from '../components/album-info/Song';
 import AlbumArt from '../components/artist-info/AlbumArt';
+import CoverArt from '../components/CoverArt';
 
 export default class AlbumInfo extends Component {
   static propTypes = {
@@ -46,7 +47,7 @@ export default class AlbumInfo extends Component {
     return (
     <>
       <h2>{artist.name}</h2>
-      <AlbumArt release={release}/>
+      <CoverArt title={release.title} date={release.date} id={release.id} coverArtArchive={release['cover-art-archive']}/>
       <p>Songs:</p>
       <List ListItem={Song} list={songs} keyName="song"/>
     </>
