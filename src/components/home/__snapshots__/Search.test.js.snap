@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component renders Search 1`] = `
+<Fragment>
+  <label>
+    Search:
+    <input
+      name="text"
+      onChange={[Function]}
+      placeholder="Search for artist..."
+      type="text"
+      value="sup"
+    />
+  </label>
+  <button
+    onClick={[Function]}
+  >
+    Magic Time
+  </button>
+</Fragment>
+`;
