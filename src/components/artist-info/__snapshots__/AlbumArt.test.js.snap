@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlbumArt component renders AlbumArt 1`] = `
+<Link
+  style={
+    Object {
+      "textDecoration": "none",
+    }
+  }
+  to="/artist//album/"
+>
+  <section
+    className="AlbumArt"
+  >
+    <img
+      alt=" Cover"
+      src="/path/image"
+    />
+    <p />
+    <p>
+      Release Date: 
+    </p>
+  </section>
+</Link>
+`;

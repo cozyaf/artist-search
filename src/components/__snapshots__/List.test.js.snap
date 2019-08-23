@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component renders List 1`] = `
+<section
+  className="List"
+>
+  <ul>
+    <li>
+      <ListItem
+        ={Object {}}
+      />
+    </li>
+  </ul>
+</section>
+`;

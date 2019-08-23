@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResult component renders SearchResult 1`] = `
+<Fragment>
+  <Link
+    style={
+      Object {
+        "textDecoration": "none",
+      }
+    }
+    to="/artist/"
+  >
+    <h2 />
+    <p>
+      description does not exist
+    </p>
+  </Link>
+</Fragment>
+`;

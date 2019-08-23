@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
+
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+p {
+  white-space: pre;
+}

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Song component renders Song 1`] = `
+<Link
+  style={
+    Object {
+      "textDecoration": "none",
+    }
+  }
+  to="/lyrics/456/ere"
+>
+  <section>
+    <p>
+      ere
+    </p>
+  </section>
+</Link>
+`;
