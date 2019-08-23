@@ -1,9 +1,16 @@
-export const getArtists = (search) => {
-  return fetch(`http://musicbrainz.org/ws/2/artist?query=${search}&fmt=json&limit=25`)
+export const getArtists = (search, page) => {
+  const NUMBER_PER_PAGE = 25;
+  const offset = (page - 1) * NUMBER_PER_PAGE;
+
+  return fetch(`http://musicbrainz.org/ws/2/artist?query=${search}&fmt=json&limit=25&offset=${offset}`)
     .then(res => {
       if(!res.ok) throw 'Unable to fetch stuff bruh :(';
       return res.json();
-    });
+    })
+    .then(res => ({
+      ...res,
+      totalPages: Math.ceil(res.count / NUMBER_PER_PAGE)
+    }));
 };
 
 export const getArtist = (id) => {

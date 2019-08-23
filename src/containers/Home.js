@@ -4,6 +4,7 @@ import Search from '../components/home/Search';
 import SearchResult from '../components/home/SearchResult';
 import List from '../components/List';
 import { getArtists } from '../services/MusicBrainzApi';
+import styles from './Home.css';
 
 export default class Home extends Component {
   static propTypes = {
@@ -12,7 +13,9 @@ export default class Home extends Component {
   }
   state = {
     text: '',
-    entries: []   
+    entries: [],
+    page: 1,
+    totalPages: 0   
   }
 
   componentDidMount() {
@@ -36,10 +39,11 @@ export default class Home extends Component {
   }
 
   loadArtists() {
-    getArtists(this.state.text)
+    getArtists(this.state.text, this.state.page)
       .then(res => {
         this.setState({
           entries: res.artists,
+          totalPages: res.totalPages
         });
       });
   }
@@ -50,14 +54,20 @@ export default class Home extends Component {
 
     return (
       <>
-      <Search 
-        text={text} 
-        handleChange={this.handleChange} 
-        handleClick={this.handleClick} />
-      <List 
-        ListItem={SearchResult} 
-        list={entries} 
-        keyName="searchResult" />
+      <section className={styles.Home}>
+        <Search 
+          text={text} 
+          handleChange={this.handleChange} 
+          handleClick={this.handleClick} />
+        <div>
+          <button className={styles.navButtons}>⇠</button>
+          <button className={styles.navButtons}>⇢</button>
+        </div>
+        <List 
+          ListItem={SearchResult} 
+          list={entries} 
+          keyName="searchResult" />
+      </section>
       </>
     );
   }

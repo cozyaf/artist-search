@@ -1,0 +1,10 @@
+.Home {
+  .navButtons {
+    font-size: 1em;
+  }
+  div {
+    display: block;
+    float: right;
+    margin-right: 20px;
+  }
+}
