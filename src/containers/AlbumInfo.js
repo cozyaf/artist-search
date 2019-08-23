@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import List from '../components/List';
-import { getArtist, getSongs } from '../services/MusicBrainzApi';
+import { getArtist, getSongs, getReleases } from '../services/MusicBrainzApi';
 import Song from '../components/album-info/Song';
+import AlbumArt from '../components/artist-info/AlbumArt';
 
 export default class AlbumInfo extends Component {
   static propTypes = {
@@ -11,7 +12,10 @@ export default class AlbumInfo extends Component {
 
   state = {
     artist: {},
-    songs: []
+    songs: [],
+    release: {
+      'cover-art-archive': {}
+    }
   }
 
   componentDidMount() {
@@ -27,15 +31,25 @@ export default class AlbumInfo extends Component {
               return { ...recording, artistName: this.state.artist.name };
             });
             this.setState({ songs: withArtistName });
+          })
+          .then(() => {
+            getReleases(match.params.artistId)
+              .then(res => {
+                const release = res.releases.filter(release => {
+                  return release.id === match.params.albumId;
+                });
+                this.setState({ release: release[0] });
+              });
           });
       });
   }
 
   render() {
-    const { artist, songs } = this.state;
+    const { artist, songs, release } = this.state;
     return (
     <>
       <h2>{artist.name}</h2>
+      <AlbumArt release={release}/>
       <p>Songs:</p>
       <List ListItem={Song} list={songs} keyName="song"/>
     </>

@@ -8,7 +8,7 @@ function AlbumArt({ release }) {
   const { title, date, id, artistId } = release;
   const coverArtArchive = release['cover-art-archive'];
 
-  const src = coverArtArchive.artwork ? `http://coverartarchive.org/release/${id}/front` : ImageNotFound;
+  const src = coverArtArchive.front ? `http://coverartarchive.org/release/${id}/front` : ImageNotFound;
 
   return (
     <Link to={ `/artist/${artistId}/album/${id}`} style={{ textDecoration: 'none' }}>

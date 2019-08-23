@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Song({ song }) {
   const { title, artistName } = song;
   return (
-    <Link to={`/lyrics/${artistName}/${title}`}>
+    <Link to={`/lyrics/${artistName}/${title}`} style={{ textDecoration: 'none' }}>
       <section>
         <p>{title}</p>
       </section>

@@ -16,7 +16,12 @@
     padding: 30px;
   }
   p {
-    font-size: .7em;
+    font-size: .8em;
     overflow-wrap: break-word;
+    color: #000;
   }
+  h2 {
+    color: #000;
+}
+
 }
