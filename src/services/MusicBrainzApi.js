@@ -21,6 +21,14 @@ export const getArtist = (id) => {
     });
 };
 
+export const getRelease = (releaseId) => {
+  return fetch(`http://musicbrainz.org/ws/2/release/${releaseId}?&fmt=json`)
+    .then(res => {
+      if(!res.ok) throw 'Unable to fetch stuff bruh :(';
+      return res.json();
+    });
+};
+
 export const getReleases = (id, page) => {
   const NUMBER_PER_PAGE = 10;
   const offset = (page - 1) * NUMBER_PER_PAGE;

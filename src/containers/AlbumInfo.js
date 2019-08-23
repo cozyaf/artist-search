@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import List from '../components/List';
-import { getArtist, getSongs, getReleases } from '../services/MusicBrainzApi';
+import { getArtist, getSongs, getRelease } from '../services/MusicBrainzApi';
 import Song from '../components/album-info/Song';
 import AlbumArt from '../components/artist-info/AlbumArt';
 
@@ -33,12 +33,9 @@ export default class AlbumInfo extends Component {
             this.setState({ songs: withArtistName });
           })
           .then(() => {
-            getReleases(match.params.artistId)
-              .then(res => {
-                const release = res.releases.filter(release => {
-                  return release.id === match.params.albumId;
-                });
-                this.setState({ release: release[0] });
+            getRelease(match.params.albumId)
+              .then(release => {
+                this.setState({ release: { ...release, artistId: match.params.artistId } });
               });
           });
       });
