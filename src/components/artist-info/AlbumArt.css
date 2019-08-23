@@ -1,9 +1,15 @@
 .AlbumArt {
   border-radius: 25px;
+  text-align: center;
+  justify-items: center;
   img {
     width: 120px;
     height: 120px;
     background-size: cover;
     margin: auto
+  }
+  p {
+    color: #000;
+    overflow-wrap: break-word;
   }
 }

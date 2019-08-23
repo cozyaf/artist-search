@@ -11,10 +11,10 @@ function AlbumArt({ release }) {
   const src = coverArtArchive.artwork ? `http://coverartarchive.org/release/${id}/front` : ImageNotFound;
 
   return (
-    <Link to={ `/artist/${artistId}/album/${id}`}>
+    <Link to={ `/artist/${artistId}/album/${id}`} style={{ textDecoration: 'none' }}>
       <section className={styles.AlbumArt}>
         <img src={src} alt={`${title} Cover`}/>
-        <p>Title: {title}</p>
+        <p>{title}</p>
         <p>Release Date: {date}</p>
       </section>
     </Link>

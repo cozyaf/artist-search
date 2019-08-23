@@ -41,8 +41,8 @@ export default class ArtistInfo extends Component {
       <>
       <h2>{artist.name}</h2>
       <p>{artist.disambiguation}</p>
-      <p>Born:{artist['life-span'].begin}</p>
-      <p>Died:{artist['life-span'].end}</p>
+      <p>Born: {artist['life-span'].begin}</p>
+      <p>Died: {artist['life-span'].end}</p>
       <List list={releases} ListItem={AlbumArt} keyName="release"/>
       </>
     );
