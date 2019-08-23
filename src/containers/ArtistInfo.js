@@ -69,7 +69,7 @@ export default class ArtistInfo extends Component {
   }
 
   render() {
-    const { releases, artist } = this.state;
+    const { releases, artist, page, totalPages } = this.state;
 
     return (
       <section className={styles.ArtistInfo}>
@@ -78,8 +78,9 @@ export default class ArtistInfo extends Component {
         <p>Born: {artist['life-span'].begin}</p>
         <p>Died: {artist['life-span'].end}</p>
         <div>
-          <button className={styles.navButtons} onClick={this.handleClickPrev}>⇠</button>
-          <button className={styles.navButtons} onClick={this.handleClickNext}>⇢</button>
+          <button disabled={page === 1} className={styles.navButtons} onClick={this.handleClickPrev}>⇠</button>
+          <span> {page} / {totalPages} </span>
+          <button disabled={page === totalPages} className={styles.navButtons} onClick={this.handleClickNext}>⇢</button>
         </div>
         <List list={releases} ListItem={AlbumArt} keyName="release"/>
       </section>
