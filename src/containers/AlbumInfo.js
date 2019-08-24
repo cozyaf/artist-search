@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import List from '../components/List';
 import { getArtist, getSongs, getRelease } from '../services/MusicBrainzApi';
 import Song from '../components/album-info/Song';
-import AlbumArt from '../components/artist-info/AlbumArt';
 import CoverArt from '../components/CoverArt';
 
 export default class AlbumInfo extends Component {
@@ -19,6 +18,14 @@ export default class AlbumInfo extends Component {
     }
   }
 
+  shortenTitle = (title) => {
+    let shortTitle = title;
+    if(title.length > 30) {
+      shortTitle = title.substring(0, 30) + '...';
+    }
+    return shortTitle;
+  }
+
   componentDidMount() {
     const match = this.props.match;
     getArtist(match.params.artistId)
@@ -29,7 +36,7 @@ export default class AlbumInfo extends Component {
         getSongs(match.params.albumId)
           .then(res => {
             const withArtistName = res.recordings.map(recording => {
-              return { ...recording, artistName: this.state.artist.name };
+              return { ...recording, artistName: this.state.artist.name, title: this.shortenTitle(recording.title) };
             });
             this.setState({ songs: withArtistName });
           })
