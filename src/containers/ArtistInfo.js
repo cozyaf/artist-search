@@ -19,13 +19,21 @@ export default class ArtistInfo extends Component {
     totalPages: 0
   }
 
+  shortenTitle = (title) => {
+    let shortTitle = title;
+    if(title.length > 30) {
+      shortTitle = title.substring(0, 30) + '...';
+    }
+    return shortTitle;
+  }
+
   fetchReleases = () => {
     const match = this.props.match;
     const artistId = match.params.id;
     getReleases(artistId, this.state.page)
       .then(res => {
         const withArtistId = res.releases.map(release => {
-          return { ...release, artistId };
+          return { ...release, artistId, title: this.shortenTitle(release.title) };
         });
         this.setState({ 
           releases: withArtistId,
