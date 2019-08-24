@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import List from '../components/List';
-import { getArtist, getSongs, getReleases } from '../services/MusicBrainzApi';
+import { getArtist, getSongs, getRelease } from '../services/MusicBrainzApi';
 import Song from '../components/album-info/Song';
-import AlbumArt from '../components/artist-info/AlbumArt';
+import CoverArt from '../components/CoverArt';
 
 export default class AlbumInfo extends Component {
   static propTypes = {
@@ -18,6 +18,14 @@ export default class AlbumInfo extends Component {
     }
   }
 
+  shortenTitle = (title) => {
+    let shortTitle = title;
+    if(title.length > 30) {
+      shortTitle = title.substring(0, 30) + '...';
+    }
+    return shortTitle;
+  }
+
   componentDidMount() {
     const match = this.props.match;
     getArtist(match.params.artistId)
@@ -28,17 +36,14 @@ export default class AlbumInfo extends Component {
         getSongs(match.params.albumId)
           .then(res => {
             const withArtistName = res.recordings.map(recording => {
-              return { ...recording, artistName: this.state.artist.name };
+              return { ...recording, artistName: this.state.artist.name, title: this.shortenTitle(recording.title) };
             });
             this.setState({ songs: withArtistName });
           })
           .then(() => {
-            getReleases(match.params.artistId)
-              .then(res => {
-                const release = res.releases.filter(release => {
-                  return release.id === match.params.albumId;
-                });
-                this.setState({ release: release[0] });
+            getRelease(match.params.albumId)
+              .then(release => {
+                this.setState({ release: { ...release, artistId: match.params.artistId } });
               });
           });
       });
@@ -49,7 +54,7 @@ export default class AlbumInfo extends Component {
     return (
     <>
       <h2>{artist.name}</h2>
-      <AlbumArt release={release}/>
+      <CoverArt title={release.title} date={release.date} id={release.id} coverArtArchive={release['cover-art-archive']}/>
       <p>Songs:</p>
       <List ListItem={Song} list={songs} keyName="song"/>
     </>
