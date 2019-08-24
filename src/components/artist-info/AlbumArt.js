@@ -7,7 +7,7 @@ function AlbumArt({ release }) {
   const { title, date, id, artistId } = release;
 
   return (
-    <Link to={ `/artist/${artistId}/album/${id}`} style={{ textDecoration: 'none' }}>
+    <Link to={`/artist/${artistId}/album/${id}`} style={{ textDecoration: 'none' }}>
       <CoverArt title={title} date={date} id={id} coverArtArchive={release['cover-art-archive']} />
     </Link>
   );
