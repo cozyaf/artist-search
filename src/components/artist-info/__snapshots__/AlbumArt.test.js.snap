@@ -9,17 +9,11 @@ exports[`AlbumArt component renders AlbumArt 1`] = `
   }
   to="/artist//album/"
 >
-  <section
-    className="AlbumArt"
-  >
-    <img
-      alt=" Cover"
-      src="/path/image"
-    />
-    <p />
-    <p>
-      Release Date: 
-    </p>
-  </section>
+  <CoverArt
+    coverArtArchive={Object {}}
+    date=""
+    id=""
+    title=""
+  />
 </Link>
 `;
